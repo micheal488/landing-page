@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  height: 25px;
+  padding: 4px;
+  margin: 3px;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+span {
+  color: rgb(238, 131, 93);
+}
+#orange {
+  background-color: rgb(238, 131, 93);
+  border: none;
+  border-radius: 2px;
+  color: black;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10vh;
+}
+.center {
+  display: flex;
+}
+.center h5 {
+  margin: 5px;
+}
+.Try button{
+  color: white;
+  margin: 10px;
+  background-color: rgb(238, 131, 93);
+  border: none;
+  border-radius: 5px;
+}
+.image {
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.img1 {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  width: 80%;
+}
+.para {
+  width: 40%;
+  margin: 10px;
+}
+.para p {
+  font-size: small;
+}
+.g {
+  background-color: white;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+.g button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: -20px;
+}
+.images {
+  height: 40vh;
+  width: 50vw;
+}
+.images img {
+  width: 100%;
+  height: 100%;
+}
+.Try{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin: 10px 0;
+  background-color: rgb(61, 55, 55);
+}
+.brand {
+  margin: 10px;
+  width: 80vw;
+  align-self: center;
+  text-align: center;
+}
+.b {
+  background-color: rgb(194, 198, 205);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 20px;
+}
+.c {
+  width: 80%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: left;
+}
+.f {
+  width: 70%;
+  font-size: 12px;
+}
+.d {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.d img {
+  width: 50%;
+  border-radius: 50%;
+}
+.h button {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: orange;
+  border: none;
+}
+.imgbdg {
+  background-color: rgb(215, 184, 189);
+  display: flex;
+  font-size: small;
+  justify-content: space-around;
+}
+.questions {
+  height: 60%;
+  width: 50%;
+  align-self: center;
+}
+.questions h1 {
+  color: rgb(238, 131, 93);
+}
+.questions li,
+.questions p {
+  margin: 4px;
+}
+.inpform {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px;
+  padding: 2px;
+}
+.inpform input {
+  margin: 6px;
+  height: 30px;
+}
+.q {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  width: 80%;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 2px;
+}
+.frequently {
+  display: flex;
+  font-size: small;
+  flex-direction: column;
+  align-items: center;
+}
+.frequently button{
+    border: none;
+    background-color: transparent;
+}
+.frequently h1 {
+  text-align: center;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+}
+.foot2 {
+  display: flex;
+}
+.foota h4 {
+  margin: 15px;
+}
+.footersvg img{
+  width: 15px;
+  height: 15px;
+}
+.footer2{
+  display: flex;
+  justify-content: space-around;
+}
