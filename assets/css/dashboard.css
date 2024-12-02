@@ -6,7 +6,7 @@
 }
 .body{
     display: flex;
-    height: 99.9vh;
+    /* height: 99.9vh; */
 }
 .menu{
     display: flex;
@@ -151,7 +151,7 @@
     display: flex;
     flex-direction: column;
     margin: 10px;
-    width: 80%;
+    width: 75%;
     border-radius: 10px;
     background-color: white;
 }
@@ -168,9 +168,10 @@
     background-color: white;
     border-radius: 10px;
     padding: 10px;
-    margin: 0 4px;
-    /* width: 10%; */
-    /* margin-right: 5px; */
+    margin: 10px;
+}
+.salesanalyse img{
+    height: 30%;
 }
 .circle{
     display: flex;
@@ -178,7 +179,7 @@
 }
 .circle1 p{
     font-size: 12px;
-    background-color: antiquewhite;
+    margin: 2px;
 }
 .circle1 button{
     height: 10px;
